@@ -72,6 +72,27 @@ input, select, textarea {
 	appearance: none;
 }
 
+.font-bold {
+	font-family: 'Righteous', cursive;
+	color: #f265ba; /* fix for not webkit browsers */
+	background: linear-gradient(to right, #f265ba, #5F00CA);
+	background-size: cover;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+}
+
+
+.textGradient {
+	color: #f265ba; /* fix for not webkit browsers */
+	background: linear-gradient(to right, #f265ba, #5F00CA);
+	background-size: cover;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+  }
 /* Basic */
 
 	html {
