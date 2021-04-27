@@ -29,28 +29,27 @@
 					<h1 id="logo"><a href="index.html">Home</a></h1>
 					<nav id="nav">
 						<ul>
-						
+							<li><a href="percorsi.html">Percorsi</a></li>
 						<!--	<li><a href="#benessereintegrato">BenessereIntegrato.it</a></li>
 							<li><a href="#posturacorretta">PosturaCorretta.org</a></li>	-->
 							<li><a href="#one">Eventi Attività</a></li>
-							<li>
-								<a href="#">Proposte</a>
+							<!--<li>
+								<a href="#">Layouts</a>
 								<ul>
-									<li><a href="salute.html">Risolvi un problema di Salute</a></li>
-											<li><a href="postura.html">Corsi e attività sulla Postura</a></li>
-											<li><a href="natura.html">Attività per il benessere nella natura</a></li>
-											<li><a href="collaborare.html">Come collaborare con me</a></li>
-									<!--<li>
+									<li><a href="left-sidebar.html">Left Sidebar</a></li>
+									<li><a href="right-sidebar.html">Right Sidebar</a></li>
+									<li><a href="no-sidebar.html">No Sidebar</a></li>
+									<li>
 										<a href="#">Submenu</a>
 										<ul>
-											<li><a href="salute.html">Risolvi un problema di Salute</a></li>
-											<li><a href="postura.html">Corsi e attività sulla Postura</a></li>
-											<li><a href="natura.html">Attività per il benessere nella natura</a></li>
-											<li><a href="collaborare.html">Come collaborare con me</a></li>
+											<li><a href="#">Option 1</a></li>
+											<li><a href="#">Option 2</a></li>
+											<li><a href="#">Option 3</a></li>
+											<li><a href="#">Option 4</a></li>
 										</ul>
-									</li>-->
+									</li>
 								</ul>
-							</li>	
+							</li>-->	
 							<li><a href="#two">Progetti</a></li>
 							<li><a href="#footer">Contatti</a></li>
 						<!--	<li><a href="#" class="button primary">Sign Up</a></li>-->
@@ -88,7 +87,10 @@
 										<label for="collaborare">Info per diventare collaboratore</label>
 									
 										<br>
-										
+										<input type="radio" id="tutte" name="request" value="tutte" v-model="picked">
+										<label for="tutte">Tutte le attività</label>
+									
+										<br>
 										
 	
 										
@@ -202,233 +204,65 @@
 				<a href="#four" class="goto-next scrolly">Next</a>
 			</section>-->
 			<!-- One -->
-				<section id="one" class=" bottom">
-					
+				<section id="one" class="spotlight style1 bottom">
+					<span class="image fit main"><img src="images/pic02.jpg" alt="" /></span>
 					<div class="content">
-						<div style="height: 60px;">
-
-						</div>
 						<div class="container">
 							<div class="row">
 								<div class="col-4 col-12-medium">
 									<header>
 										<h2 class="font-bold">Eventi e Attività</h2>
 										<p>"Il tempo è ciò che impedisce alle cose di accadere tutte in una volta."</p>
-													
+										<p>A breve disponibile</p>
+
+										<a href="https://posturacorretta.org/home/index" class="button primary medium" style="padding-left:15px;padding-right:15px;">Eventi</a>
+										
 								<br>	<br>
 									</header>
 								</div>
 								<div class="col-4 col-12-medium">
 								
-								
+									<b>Calendario Eventi</b>
+									<p>
+										In questa sessione trovi il calendario eventi proposti!
+										<br>
+										Potrai trovare le attività della settimana o quelle future le modalità per accedere o partecipare:
+									</p>
 									
-									<b>Eventi</b>
-									<p>Cliccando su eventi sarai indirizzato alla pagina posturacorretta e potrai vedere il calendario con tutti gli eventi.</p>
-
-										<a href="https://posturacorretta.org/home/index" class="button primary medium" style="padding-left:15px;padding-right:15px;">Eventi</a>
-							
+									<b>Attività orari Settimanali</b>
+									<p>
+										Alcune attività diventano routine che se inserite durante il giorno o la settimana, aiutano a mantenerci in salute e a raggiungere i nostri obiettivi!
+										In questa sezione potrai condividere o suggerire routine che ti aiutano!
+										
+									</p>
 									
 
 								</div>
 								<div class="col-4 col-12-medium">
 									
 									
-										<b>Attività settimanali</b>
+										<b>A breve nelle attività settimanali</b>
 									<p>Percorso sulla salute BenessereIntegrato.it
-									<br>Fisioterapia individuale PosturaCorretta
-									<br>Lezioni ed Esercizi sulla postura in gruppo online
-									<br>Percorsi sulla postura
-									<br>Dirette 
-									<br>Attività per il benessere nella natura
-									<br>Fisiotreck passeggiate escursioni nella natura
-									<br>Lavoro di organizzazione dei servizi
-								<!--<br>Canto e Musica coro canzoni popolari
+										
+									<br>Fisioterapia PosturaCorretta
+								
 									<br>Guide PosturaCorretta
-									<br>Lettura e ricerca 
-									<br>Preparare Contenuti
+									
 									<br>Rails for business (Gestione dei progetti)
 									<br>Time 4 3xperiences gestione del tempo e delle risorse
-									<br>Informatica Impara a programmare con ruby  -->	
-								
+									<br>Terapia nel bosco
+								<br>Fisiotreck passeggiate e attività nella natura
+								<br>Canto e Musica coro canzoni popolari
+
+									<br>Informatica Impara a programmare con ruby 
+									<br>Lettura e ricerca 
+									<br>Preparare Contenuti
 									<br> </p>
 								</div>
 							</div>
-							<!--Calendario inizio -->
-							<div class="table-wrapper" style="padding:15px;">
-								<div style="overflow-x:auto;">
-									<table class="alt">
-										<thead>
-											<tr>
-												<th>Ora</th>
-												<th>Lun</th>
-												<th>Mar</th>
-												<th>Mer</th>
-												<th>Gio</th>
-												<th>Ven</th>
-												<th>Sab</th>
-												<th>Dom</th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												
-												<td>08:00</td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td></td>
-											</tr>
-											<tr>
-												
-												<td>09:00</td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td></td>
-											</tr>
-											<tr>
-												
-												<td>10:00</td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td></td>
-											</tr>
-											<tr>
-												
-												<td>11:00</td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td></td>
-											</tr>
-											<tr>
-												
-												<td>12:00</td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td></td>
-											</tr>
-											<tr>
-												
-												<td>13:00</td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td></td>
-											</tr>
-											<tr>
-												
-												<td>14:00</td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td></td>
-											</tr>
-											<tr>
-												
-												<td>15:00</td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td></td>
-											</tr>
-											<tr>
-												
-												<td>16:00</td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td></td>
-											</tr>
-											<tr>
-												
-												<td>17:00</td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td></td>
-											</tr>
-											<tr>
-												
-												<td>18:00</td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td></td>
-											</tr>
-											<tr>
-												
-												<td>19:00</td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td></td>
-											</tr>
-											<tr>
-												
-												<td>20:00</td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td></td>
-												<td></td>
-											</tr>
-										</tbody>
-										<!--<tfoot>
-											<tr>
-												<td colspan="2"></td>
-												<td>100.00</td>
-											</tr>
-										</tfoot>-->
-									</table>
-								</div>
-							</div>	
-							<!-- Calendario Fine -->
 						</div>
-						
 					</div>
-					
-					<a href="#progetti" class="goto-next scrolly">Next</a>
+					<a href="#percorsi" class="goto-next scrolly">Next</a>
 				</section>
 
 			
@@ -449,8 +283,67 @@
 					<a href="#four" class="goto-next scrolly">Next</a>
 				</section>-->
 
+			<!-- Four  -->
+				<section id="four" class="wrapper style1 special fade-up">
+					<div class="container">
+						<header class="major">
+							<h2>Percorsi</h2>
+							<p>Ecco i percorsi proposti</p>
+						</header>
+						<div class="box alt">
+							<div class="row gtr-uniform">
+								<section class="col-4 col-6-medium col-12-xsmall">
+									<a href="percorsi.html">
+										<img src="images/benint.png" alt="">
+										<!--<span class="icon solid alt major fa-chart-area"></span>-->
+										<h3>Percorso salute e benessere</h3>
+									</a>
+									<p>Tutta la tua salute in un unico percorso con a 360° e se iniziassi a lavorare per migliorare la tua salute prima che si manifesti una patologia da curare?</p>
+								</section>
+								<section class="col-4 col-6-medium col-12-xsmall">
+									<a href="percorsi.html">
+										<img src="images/sassi.png" alt="">
+										<!--<span class="icon solid alt major fa-comment"></span>-->
+										<h3>Impara dal tuo corpo</h3>
+									</a>	
+										<p>La postura non è solo stare ben dritti sulla sedia e non sono solo esercizi per far passare il dolore dietro c'è un mondo. Pronto a scoprirlo e cambiare le regole del gioco? </p>
+									
+								</section>
+							<!--	<section class="col-4 col-6-medium col-12-xsmall">
+									<span class="icon solid alt major fa-flask"></span>
+									<h3>Cubilia cep lobortis</h3>
+									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+								</section>
+								<section class="col-4 col-6-medium col-12-xsmall">
+									<span class="icon solid alt major fa-paper-plane"></span>
+									<h3>Non semper interdum</h3>
+									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+								</section>
+								<section class="col-4 col-6-medium col-12-xsmall">
+									<span class="icon solid alt major fa-file"></span>
+									<h3>Odio laoreet accumsan</h3>
+									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+								</section>
+								<section class="col-4 col-6-medium col-12-xsmall">
+									<span class="icon solid alt major fa-lock"></span>
+									<h3>Massa arcu accumsan</h3>
+									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+								</section>-->
+							</div>
+						
+						</div>
+						<!-- Inizio percorsi -->
+						
+						<!-- fine percorsi -->
+						<footer class="major">
+							<ul class="actions special">
+								<li><a href="percorsi.html" class="button">Vai ai percorsi</a></li>
+							</ul>
+						</footer>
+					</div>
+				</section>
 			<!-- Two -->
-			<section id="progetti" class="spotlight style1 right">
+			<section id="two" class="spotlight style1 right">
 				<span class="image fit main"><img src="images/pic03.jpg" alt="" /></span>
 				<div class="content">
 
@@ -477,7 +370,64 @@
 				<a href="#three" class="goto-next scrolly">Next</a>
 			</section>
 			<!-- Four  -->
-		
+			<!-- Inizio mappe -->
+			<section id="four" class="wrapper style1 special fade-up">
+				<div class="container">
+					<header class="major">
+						<h2>Mappe</h2>
+						<p>Schemi e Simboli</p>
+					</header>
+					<div class="box alt">
+						<div class="row gtr-uniform">
+							<section class="col-4 col-6-medium col-12-xsmall">
+								<a href="#">
+									<img src="images/benint.png" alt="">
+									<!--<span class="icon solid alt major fa-chart-area"></span>-->
+									<h3>Logo BenessereIntegrato.it</h3>
+								</a>
+								<p>La salute e il benessere sono la somma del nostro aspetto biopsicosociale. L'aspetto bio è sottolineato dal colore verde e dal centro che sostiene tutti i nostri istinti. L'aspetto sociale è sottolineato dal colore rosso che rappresenta il centro delle nostre emozioni, l'aspetto psico o di pensiero e valori è rappresentato dal colore blu che rappresenta il centro in cui costruiamo i valori dove costruiamo la nostra visione del mondo grazie alle convinzioni che ci costruiamo e ai pensieri che riceviamo.</p>
+							</section>
+							<section class="col-4 col-6-medium col-12-xsmall">
+								<a href="#">
+									<img src="images/sassi.png" alt="">
+									<!--<span class="icon solid alt major fa-comment"></span>-->
+									<h3>Logo posturacorretta</h3>
+								</a>	
+									<p>Il logo PosturaCorretta sta ad indicare che il corpo umano porta con se tre centri di gravità che nascondono molti segreti. 
+										<br>Il raggingimento della verticalità ha portato l'uomo a spostare questi centri in modo che fossero allineati uno sopra l'altro! 
+										<br>Questi tre centri di gravità hanno un collegamento con le nostre funzioni corporee e con i nostri organi. Tutta la struttura è connessa e lavora insieme.
+									</p>
+								
+							</section>
+						<!--	<section class="col-4 col-6-medium col-12-xsmall">
+								<span class="icon solid alt major fa-flask"></span>
+								<h3>Cubilia cep lobortis</h3>
+								<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+							</section>
+							<section class="col-4 col-6-medium col-12-xsmall">
+								<span class="icon solid alt major fa-paper-plane"></span>
+								<h3>Non semper interdum</h3>
+								<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+							</section>
+							<section class="col-4 col-6-medium col-12-xsmall">
+								<span class="icon solid alt major fa-file"></span>
+								<h3>Odio laoreet accumsan</h3>
+								<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+							</section>
+							<section class="col-4 col-6-medium col-12-xsmall">
+								<span class="icon solid alt major fa-lock"></span>
+								<h3>Massa arcu accumsan</h3>
+								<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+							</section>-->
+						</div>
+					
+					</div>
+
+					
+					<!-- fine mappe -->
+				
+				</div>
+			</section>
 			<!-- Five 
 				<section id="five" class="wrapper style2 special fade">
 					<div class="container">
