@@ -39,10 +39,10 @@
 							<li>
 								<a href="#">Proposte</a>
 								<ul>
-									<li><a href="salute.html">Risolvi un problema di Salute</a></li>
-											<li><a href="postura.html">Corsi e attività sulla Postura</a></li>
-											<li><a href="natura.html">Attività per il benessere nella natura</a></li>
-											<li><a href="business.html">Collabora con me</a></li>
+									<li><a href="salute.html">Risolvi un problema di <b style="color:rgb(47, 255, 116);">SALUTE</b></a></li>
+											<li><a href="postura.html">Corsi e attività sulla <b style="color:rgb(47, 172, 255, 0.952);">POSTURA</b></a></li>
+											<li><a href="natura.html">Attività per il benessere nella <b style="color:rgba(255, 209, 83, 0.747);">NATURA</b></a></li>
+											<li><a href="business.html">Collabora con me <b style="color:rgb(255, 102, 0)">BUSINESS</b></a></li>
 									<!--<li>
 										<a href="#">Submenu</a>
 										<ul>
@@ -78,17 +78,17 @@
 										<!-- form vuejs -->
 									<div id="app">
 										<input type="radio" id="salute" value="salute" v-model="picked">
-										<label for="salute">🩺 Risolvere un problema di salute!</label>
+										<label for="salute">🏥 &nbsp; Risolvere un problema di <b style="color:rgb(47, 255, 116);">SALUTE</b></label>
 										<br>
 										<input type="radio" id="postura" name="request" value="postura" v-model="picked">
-										<label for="postura">🧘 Corsi e attività sulla postura.</label>
+										<label for="postura">🧘 &nbsp;  Corsi e attività sulla <b style="color:rgb(47, 172, 255, 0.952);">POSTURA</b></label>
 										<br>
 										
 										<input type="radio" id="natura" name="request" value="natura" v-model="picked">
-										<label for="natura">🍀 Attività nella natura per il benessere</label>
+										<label for="natura">🍀 &nbsp; Attività nella <b style="color:rgba(255, 209, 83, 0.747);">NATURA</b></label>
 										<br>
 										<input type="radio" id="business" name="request" value="business" v-model="picked">
-										<label for="business">💰 Info per diventare collaboratore</label>
+										<label for="business">💰 &nbsp; Info per collaborare <b style="color:rgb(255, 102, 0)">BUSINESS</b></label>
 									
 										<br>
 										
@@ -236,11 +236,11 @@
 								<div class="col-4 col-12-medium">
 									
 									<b>Attività</b>
-									<p>Qui l'orario delle attività della settimana!</p>
-									
-
-
-									
+									<p>Qui sotto trovi l'orario delle attività della settimana, contattami per informazioni oppure iscriviti alle attività che ti interessano!</p>
+					
+										<a href="#orario" class="button primary medium" style="padding-left:15px;padding-right:15px;">Orario</a>
+							
+									</a>
 									
 								
 
@@ -263,7 +263,7 @@
 								</div>
 							</div>
 							<!--Calendario inizio -->
-							<div class="table-wrapper" style="padding:15px;">
+							<div class="table-wrapper" style="padding:15px;" id="orario">
 								<div style="overflow-x:auto;">
 									<table class="alt">
 										<thead>
@@ -322,8 +322,8 @@
 														06:30 - 08:30 
 			
 														
-														<br> Lavoro e ricarica
-														<br> Nella natura
+														<br> Attività Natura
+														<br> Fisiotreck 
 														
 
 														</p> 
@@ -364,7 +364,7 @@
 														</p>
 													
 															
-																<p style="text-align: center; color:rgba(253, 253, 253, 0.952);">
+																<p style="text-align: center; color:rgb(255, 102, 0);">
 																	09:00 - 17:00 
 																	<br>
 																	<br>Ricerca 
